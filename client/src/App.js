@@ -6,6 +6,7 @@ import AdminDashboard from './components/Dashboard/AdminDashboard';
 import PropertyList from './components/Property/PropertyList';
 import AddProperty from './components/Property/AddProperty';
 import Chatbot from './components/Chatbot/Chatbot';
+import PropertyDetail from './components/Property/PropertyDetail';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/properties" element={<PropertyList />} />
         <Route path="/add-property" element={<AddProperty />} />
+        <Route path='/property-detail' element={<PropertyDetail />} />
         <Route path="/chat" element={<Chatbot />} />
       </Routes>
     </Router>
