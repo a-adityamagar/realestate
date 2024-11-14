@@ -8,7 +8,7 @@ exports.addProperty = async (req, res) => {
         description,
         location,
         price,
-        images: req.files.map(file => file.path), // Assuming you use multer for file uploads.
+        images: req.files.map(file => file.path), 
     });
     
     try {

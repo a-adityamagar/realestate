@@ -1,3 +1,4 @@
+
 const express = require('express');
 const multer = require('multer');
 const { addProperty, getProperties } = require('../controllers/propertyController');
