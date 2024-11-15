@@ -10,6 +10,7 @@ import PropertyDetail from './components/Property/PropertyDetail';
 import Dashboard from './components/Dashboard/Dashboard';
 import AdminLogin from './components/Auth/AdminLogin';
 import UserActivityChart from './components/Dashboard/UserActivityChart';
+import Wishlist from './components/wishlist/Wishlist';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/property/:id" element={<PropertyDetail />} />
         <Route path="/useractivitychart" element={<UserActivityChart/>} />
         <Route path="/chat" element={<Chatbot />} />
+        <Route path="wishlist" element={<Wishlist />} />
         <Route path="/admin/login" element={<AdminLogin />} />
       </Routes>
     </Router>

@@ -34,8 +34,7 @@ function PropertyList() {
                     <div className="space-x-4">
                         <Link to="/" className="text-gray-600 hover:text-blue-500">Home</Link>
                         <Link to="/properties" className="text-gray-600 hover:text-blue-500">Properties</Link>
-                        <Link to="/about" className="text-gray-600 hover:text-blue-500">About Us</Link>
-                        <Link to="/contact" className="text-gray-600 hover:text-blue-500">Contact</Link>
+                        <Link to="/agents" className="text-gray-600 hover:text-blue-500">Agents</Link>
                         <Link to="/login" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Login</Link>
                     </div>
                 </div>
